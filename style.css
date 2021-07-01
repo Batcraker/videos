@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ab4edc;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.contenedor div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor div video {
+    width: 90%;
+}
+
+.contenedor .video1 {
+    margin-bottom: 50px;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+    height: 10px;
+}
+
+.contenedor .video2 {
+    margin-top: 20px;
+}
